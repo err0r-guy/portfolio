@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/albin.jpg" alt="Albin Shaju" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Albin Shaju">ALBIN SHAJU</h1>
+
+            <p class="title">PENETRATION TESTER</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:albinshaju@proton.me" class="contact-link"
+                  >albinshaju@proton.me</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+91 9656775482" class="contact-link"
+                  >+91 9656775482</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Kannur, Kerala, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/albin-shaju"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin" style="color: white"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://api.whatsapp.com/send?phone=919656775482&text=Hey"
+                class="social-link"
+              >
+                <ion-icon name="logo-whatsapp" style="color: white"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://instagram.com/err0r_guy?igshid=OGQ5ZDc2ODk2ZA=="
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram" style="color: white"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am a self learner and I keep myself updated on the latest
+              technologies. I am a passionate penetration tester with extensive 
+              knowledge in Information Security, Mobile & Web Application Security,
+              API,and Network Penetration Testing.
+            </p>
+
+            <p>
+              As an ambitious and hard-working individual, I am often
+              recognized for my ability to quickly learn and improve on
+              a wide array of technologies to provide solutions and workarounds
+              for business needs and challenges.
+
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="Labs training icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Learning</h4>
+
+                  <p class="service-item-text">
+                    Learn and conduct penetration tests against virtualized systems to determine vulnerabilities and appropriate patching methods. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="script icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Scripting</h4>
+
+                  <p class="service-item-text">
+                    Creates scripts using Python and Bash to perform various tasks like automation. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile phone icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile & Web Application Security Testing</h4>
+
+                  <p class="service-item-text">
+                    Conducts VAPT on various mobile and web applications using tools such as Nmap, Burpsuite, Metasploit etc..
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/monitoring.png"
+                    alt="monitor icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">CTF</h4>
+
+                  <p class="service-item-text">
+                    I participate in ctfs to gain hands on experience in a 
+                    challenging atmosphere.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">FAVOURITES</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="" alt="" width="60" data-testimonials-avatar />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    BURPSUITE
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Burp Suite is a software security application used for penetration testing of web applications. Both a free and a paid version of the software are available. The software is developed by the company PortSwigger. Burp Suite products introduce new levels of automation to the testing and scanning activities, to help catch more vulnerabilities faster.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="" alt="" width="60" data-testimonials-avatar />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    METASPLOIT
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development. It is owned by Boston, Massachusetts-based security company Rapid7.
+                      Its best-known sub-project is the open-source Metasploit Framework, a tool for developing and executing exploit code against a remote target machine. Other important sub-projects include the Opcode Database, shellcode archive and related research.The Metasploit Project includes anti-forensic and evasion tools, some of which are built into the Metasploit Framework.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="" alt="" width="60" data-testimonials-avatar />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    NMAP
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Nmap is a network scanner created by Gordon Lyon. Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Albin Shaju</h4>
+
+                <time datetime="2023-09-15">2023</time>
+
+                <div data-modal-text>
+                  <p>
+                    Burp Suite is a software security application used for penetration testing of web applications. Both a free and a paid version of the software are available. The software is developed by the company PortSwigger. Burp Suite products introduce new levels of automation to the testing and scanning activities, to help catch more vulnerabilities faster.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Bachelor of Computer Applications(BCA)</h4>
+
+                <span>SES College, Sreekandapuram [2019 - 2022]</span>
+
+                <p class="timeline-text">
+                  SES College Sreekandapuram is a public college located in Kannur, Kerala. It was established in 1981. The college is affiliated to Kannur University. It offers various undergraduate and postgraduate level programs such as B.A, BBA, BCA, B.Sc, B.Com, M.Sc, M.Com and M.A across several specialisations. Admissions to all the courses are either merit or entrance-based.
+                  Educational institutions are social capital for the growth of emerging generations and S.E.S has always extended a helping hand to marginalised and under privileged .The college gives enough provisions for the manifestation of student’s talents through novel initiatives.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Computer Science(12th)
+                </h4>
+
+                <span>Sacred Heart Higher Secondary School, Payyavoor [2017 - 2019]</span>
+
+                <p class="timeline-text">
+                  SACRED HEART HIGHER SECONDARY SCHOOL PAYYAVOOR was established in 1948 and it is managed by the Pvt. Aided. It is located in Rural area. It is located in IRIKKUR block of KANNUR district of Kerala.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">HackerBroTechnologies</h4>
+
+                <span>September 2023 — Present</span>
+
+                <p class="timeline-text">Red Team Engineer Intern(part time)</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Tsaaro Academy</h4>
+
+                <span>July 2023 — September 2023</span>
+
+                <p class="timeline-text">Data Privacy & Cybersecurity Intern(part time)</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  TechnoHacks EduTech
+                </h4>
+
+                <span>July 2023 - August 2023</span>
+
+                <p class="timeline-text">Cybersecurity & Ethical Hacking Intern(part time)</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Online Trainings
+                </h4>
+
+                <span>October 2022 - Present</span>
+
+                <p class="timeline-text">TryHackMe, HackTheBox, PortSwigger Labs(part time)</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SCRIPTING</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">OSINT & Virtualisation</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">VAPT</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">OWASP Top 10</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+                <!--li class="filter-item">
+              <button data-filter-btn>Internship</button>
+            </!--li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Courses</button>
+            </li>
+
+            <li-- class="filter-item">
+              <button data-filter-btn>Workshop</button>
+            </li-->
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                  <!--li class="select-item">
+                <button data-select-item>Internship</button>
+              </!--li>
+
+              <li class="select-item">
+                <button data-select-item>Courses</button>
+              </li>
+
+              <li-- class="select-item">
+                <button data-select-item>Workshop</button>
+              </li--> 
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Internship"
+              >
+                <a
+                  href="https://drive.google.com/file/d/16sZNRHVQbZ0mzd9oR2oO_BRLD7b07xBd/view?usp=drivesdk"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/TechnoHacks Intern.jpg"
+                      alt="Intern"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Internship</h3>
+
+                  <p class="project-category">Certificate of Internship</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Courses"
+              >
+                <a
+                  href="https://drive.google.com/file/d/18ok5lw4ftktJB8h4UIZZhrcdwjQkgnWH/view?usp=drivesdk"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/EHE.png"
+                      alt="EHE"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Ethical Hacking Essentials(EHE)</h3>
+
+                  <p class="project-category">Certificate by EC council</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Courses"
+              >
+                <a href="https://drive.google.com/file/d/16lzOSuj_DX7h1OJBE-xOKfQNu8PsirZB/view?usp=drivesdk">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                      <img src="./assets/images/Certified in Cybersecurity(CC).png" alt="dsm." loading="lazy"> 
+                  </figure>
+
+                    <h3 class="project-title">Certified in Cybersecurity(CC)</h3>
+
+                <p class="project-category">Certificate by ISC2</p> 
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Workshop"
+              >
+                <a href="https://drive.google.com/file/d/16qS7GrcON9CcleJjlAuP0fwQEFVbnt3l/view?usp=drivesdk">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                      <img src="./assets/images/Advanced Process Injection Workshop.png" alt="certificate" loading="lazy"> 
+                  </figure>
+
+                    <h3 class="project-title">Advanced Process Injection V.2</h3>
+
+                <p class="project-category">Workshop Certificate by CWL</p> 
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Workshop"
+              >
+                <a href="https://drive.google.com/file/d/16twUyTjuQThk-Jr1BHnsgCk4gP3VIAje/view?usp=drivesdk">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                      <img src="./assets/images/Underground Passageways webinar.png" alt="certificate" loading="lazy"> 
+                  </figure>
+
+                    <h3 class="project-title">Underground Passageways: Navigating the world of Credential Theft</h3>
+
+                <p class="project-category">Webinar Certificate by CWL</p> 
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
